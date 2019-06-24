@@ -26,6 +26,6 @@ functions:
           path: /{proxy+}
           method: ANY
           cors: true
-
-plugins:
-  - serverless-offline
+# Commenting this
+#plugins:
+#  - serverless-offline
